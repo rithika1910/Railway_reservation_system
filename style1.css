@@ -1,0 +1,27 @@
+
+
+ul {
+    list-style-type: none;
+    color: azure;
+  }
+  
+ul li a {
+    text-decoration: none;
+    color: white;
+    border: 0.5vh solid white;
+    padding: 5vh 7vh ;
+    border-radius: 5vh;
+}
+  
+ul li a:hover {
+    color: #087E8B;
+    background: white;
+}
+
+form{
+    text-align: center;
+    padding: 2vh;
+    color: azure;
+    font-size: 5vh;
+}
+

@@ -1,0 +1,40 @@
+ 
+ body{
+     background-image: url("bg3.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: burlywood;
+     overflow-y: hidden;
+ }
+
+ div{
+     background-color: rgb(73, 73, 73);
+     border: 0.5px solid black;
+     border-radius: 2vh;
+     margin-top: 3vh;
+     margin-bottom: 1vh;
+     margin-right: 5vh;
+     margin-left: 125vh;
+     text-align: center;
+     padding-left: 2vh;
+     padding-top: 2vh;
+     padding-right: 3vh;
+     padding-bottom: 3vh;
+ }
+
+ span{
+    font-size:40px;
+    opacity: 0.3;
+ }
+
+ span:hover{
+    font-size: 50px;
+    opacity:1;    
+ }
+
+ .emojionclick{
+     font-size: 50px;
+     opacity:1;
+ }
+
+ 

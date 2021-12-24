@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="style1.css">
+        <script src="JS_external.js"></script>
+    </head>
+    <body style="background-color: #757575;overflow: hidden;">
+    <div style="background-color: #087e8B;font-size: 5vh;border:0.1vh solid azure;color: azure;padding: 2vh 2vh;text-align: center;">Fill the following details<br></div>
+    <h4 style="color: azure;text-align: center;text-decoration: none;font-size: 5vh;">
+    <form onsubmit="return true" method="GET" id="nb">
+        <div>
+        <label>Account Number: </label>
+        <input type="text" id="accnum" required><br><br>
+        </div>
+        <div>
+        <label>CIF Number:</label>
+        <input type="number" id="cif" required><br><br>
+        </div>
+        <div>
+        <label>Branch:</label>
+        <input type="text" id="bcode" required><br><br>
+        </div>
+        <div>
+        <label>Country:</label>
+        <input type="text" maxlength="10" required><br><br>
+        </div>
+        <div>
+        <label>Mobile Number:</label>
+        <input type="number" id="phnum" required><br><br>
+        </div>
+        <div>
+        <span><img  id="cap" src="captcha1.png" height="50" width="200" ></span>
+        <input type="text" id="try" required>
+        <button onclick="document.getElementById('cap').src='captcha2.png'">Refresh</button><br><br>
+        <input type="reset" value="Clear"> 
+        <input type="submit" value="Submit" onclick="return checknb()">
+        <input type="submit" value="Proceed" onclick="window.open('success.html')"></h4>
+    </form>
+</html>

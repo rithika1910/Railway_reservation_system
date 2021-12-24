@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style1.css">
+        <script src="JS_external.js"></script>
+    </head>
+    <body style="background-color: #757575;">
+        <div style="background-color: #087e8B;font-size: 5vh;border:0.1vh solid azure;color: azure;padding: 2vh 2vh;text-align: center;">Fill the following details<br><br></div>
+    <h4 style="color: azure;text-align: center;text-decoration: none;font-size: 5vh;">
+    <form onsubmit="return true" method="GET" id="db">
+       <div>
+       <label>Card Number: </label>
+       <input type="number" name="cardno" id="cardno" required><br><br>
+       </div>
+       <div>
+       <label>Card Holdername:</label>
+       <input type="text" name="cardname" id="cardname" maxlength="20" required><br><br>
+       </div>
+       <div>
+       <label>Expiry Date: </label>
+       <input type="month" id="year" required><br><br>
+       </div>
+       <div>
+       <label>CVV: </label>
+       <input type="password" name="cvv" id="cvv" required ><br><br>
+       </div>
+       <input type="reset" value="Clear"> <input type="submit" value="Submit" onclick="return checkdb()">  <input type="submit" value="Proceed" onclick="window.open('success.html');"> </h4>
+    </form>
+    </body>
+</html>
